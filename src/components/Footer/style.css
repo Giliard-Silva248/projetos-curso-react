@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 0;
+
+}
+
+footer p {
+    padding: 5px 15px;
+}
+footer p a{
+    text-decoration: none;
+}

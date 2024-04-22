@@ -1,0 +1,48 @@
+
+
+.container{
+    width: 100%;
+
+
+  
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+}
+
+img{
+    width: 7%;
+}
+.btn{
+
+    min-width: 30vw;
+    
+    display: flex;
+    justify-content: space-around;    
+
+    list-style: none;
+
+    padding: 10px 5px;
+
+}
+
+.btn li a{
+    
+    text-decoration: none;
+
+    padding: 3px 10px;
+
+    border-bottom: 1px solid;
+    transition: background 1s;
+}
+
+.btn li a:hover{
+    background: aliceblue;
+    color: black;
+
+    border-radius: 10px ;
+
+}
